@@ -5,20 +5,25 @@
   <title>Moñitos - Tu Pelo Seguro, Tu Estilo Único</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Arial', sans-serif;
       background-color: #fff8f0;
       margin: 0;
       padding: 0;
-      color: #333;
+      color: #4b2e2e;
     }
     header {
       background-color: #ffb6c1;
-      padding: 20px;
       text-align: center;
+      padding: 30px 20px;
+    }
+    header img {
+      width: 120px;
+      border-radius: 50%;
     }
     header h1 {
-      margin: 0;
+      margin: 10px 0 5px;
       font-size: 2.5em;
+      letter-spacing: 2px;
     }
     header p {
       font-style: italic;
@@ -27,23 +32,30 @@
     section {
       padding: 20px;
     }
-    .about, .products, .contact {
-      margin-bottom: 30px;
-    }
     h2 {
       color: #d94f70;
+      margin-bottom: 10px;
+    }
+    .about, .contact {
+      margin-bottom: 30px;
     }
     .product-list {
       display: flex;
       flex-wrap: wrap;
-      gap: 15px;
+      gap: 20px;
+      justify-content: center;
     }
     .product {
       background-color: #ffe4e1;
       padding: 10px;
       border-radius: 8px;
-      width: 150px;
+      width: 200px;
       text-align: center;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
     }
     footer {
       background-color: #ffb6c1;
@@ -56,7 +68,8 @@
 <body>
 
   <header>
-    <h1>Moñitos</h1>
+    <img src="https://copilot.microsoft.com/th/id/BCO.235fe671-4c77-493f-8eee-2b5820a39b0c.png" alt="Logo Moñitos">
+    <h1>MOÑITOS</h1>
     <p>Tu Pelo Seguro, Tu Estilo Único</p>
   </header>
 
@@ -69,14 +82,17 @@
     <h2>Productos</h2>
     <div class="product-list">
       <div class="product">
+        <img src="https://example.com/scrunchie-clasico.jpg" alt="Scrunchie Clásico">
         <strong>Scrunchie Clásico</strong><br>
         Tela suave reciclada
       </div>
       <div class="product">
+        <img src="https://example.com/mono-elegante.jpg" alt="Moño Elegante">
         <strong>Moño Elegante</strong><br>
         Ideal para eventos
       </div>
       <div class="product">
+        <img src="https://example.com/coleta-colorida.jpg" alt="Coleta Colorida">
         <strong>Coleta Colorida</strong><br>
         Estilo juvenil
       </div>
